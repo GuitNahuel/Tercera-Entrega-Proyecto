@@ -10,13 +10,11 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    background-color: gray;
-    color: white;
-    height: 1300px;
+    background-color: $colormain;
+    color: white;;
     padding: 20px;
-    border: black 5px solid;
-    border-radius: 50px;
     margin: 20px;
+    border-radius: 10px;
 }
 
 .tresTarjetas {

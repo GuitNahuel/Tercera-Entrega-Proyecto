@@ -27,10 +27,9 @@
     justify-content: center;
     padding: 10px;
     p{
-        color: #181D31;
-        border: #181D31 5px solid;
+        color: white;
         border-radius: 10px;
-        background-color: gray;
+        background-color: $colormain;
         font-family: $miletraprincipal;
         padding: 10px;}
 }

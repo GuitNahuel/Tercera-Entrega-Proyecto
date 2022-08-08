@@ -41,10 +41,6 @@
     grid-template-areas: "titulo4 titulo4" "listaCompra listaCompra" "enviosM cuotasM" "descuentoM descuentoM";
     gap: 20px;
   }
-  .grillaComo .listaCompra {
-    height: 700px;
-    color: white;
-  }
   .grillaQuienes {
     display: grid;
     grid-template-areas: "titulo2 titulo2" "foto-grupo foto-grupo" "textoquien textoquien" "textoLocal textoLocal" "local1 local2";
@@ -522,13 +518,11 @@ h3 {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  background-color: gray;
+  background-color: #112D4E;
   color: white;
-  height: 1300px;
   padding: 20px;
-  border: black 5px solid;
-  border-radius: 50px;
   margin: 20px;
+  border-radius: 10px;
 }
 
 .tresTarjetas, .descuentoM, .cuotasM, .enviosM {
@@ -584,10 +578,9 @@ h3 {
   padding: 10px;
 }
 .textogen p, .textoquien p, .textoLocal p {
-  color: #181D31;
-  border: #181D31 5px solid;
+  color: white;
   border-radius: 10px;
-  background-color: gray;
+  background-color: #112D4E;
   font-family: "Josefin Sans", sans-serif;
   padding: 10px;
 }
@@ -680,7 +673,7 @@ header {
   text-decoration: none;
 }
 .navbar a:hover {
-  color: aqua;
+  color: white;
 }
 .navbar a nav ul {
   display: flex;
