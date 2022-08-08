@@ -1,0 +1,61 @@
+
+.flexiando{display: flex;
+align-items: center;
+justify-content: center;}
+.letraT{font-size: medium;}
+
+.grillaMateando footer img{max-width: 100%;}
+.grillaMateando{
+margin-top: 100px;}
+.titulo {
+    grid-area: titulo;
+    
+}
+
+.foto1 {
+    grid-area: foto1;
+    @extend .flexiando;
+}
+
+.foto2 {
+    grid-area: foto2;
+    @extend .flexiando
+}
+
+.ahora12 {
+    grid-area: ahora12;
+@extend .flexiando
+}
+
+.messi1 {
+    grid-area: messi1;
+    @extend .flexiando
+}
+
+.roman1 {
+    grid-area: roman1;
+    @extend .flexiando
+}
+
+.marado1 {
+    grid-area: marado1;
+    @extend .flexiando
+}
+.circle1 {
+    border-radius: 50%;
+    border: $fondo 5px solid;
+}
+.memes {
+    @include medidas(none, 60px, 5px, none);
+    grid-area: memes;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color:$fondotitulos;
+    color: black;
+    font-family: $miletraprincipal;
+    
+}
+.navbar-nav{display: flex;
+align-items: center;}

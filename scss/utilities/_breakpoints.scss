@@ -1,0 +1,178 @@
+@media screen and(min-width:260px) {
+    .grillaMateando {
+        display: grid;
+        grid-template-areas:
+            "titulo"
+            "foto1"
+            "foto2"
+            "ahora12"
+            "memes"
+            "messi1"
+            "marado1"
+            "roman1";
+        gap: 20px;
+
+        img {
+            max-width: 80%;
+        }
+
+        .nombre {
+            font-size: small;
+        }
+    }
+
+    .barraDer {
+        display: flex;
+        justify-content: center;
+    }
+
+    .grillaCatalogo {
+        display: grid;
+        grid-template-areas:
+            "titulo3"
+            "producto1"
+            "producto2"
+            "producto3"
+            "producto4"
+            "producto5"
+            "producto6"
+            "producto7"
+            "producto8"
+            "producto9";
+        gap: 20px;
+
+        img {
+            max-width: 80%;
+        }
+    }
+
+}
+
+@media screen and(min-width:576px) {
+    .grillaMateando {
+        display: grid;
+        grid-template-areas:
+            "titulo titulo"
+            "foto1 foto2"
+            "ahora12 0"
+            "memes memes"
+            "messi1 marado1"
+            "1 roman1";
+        gap: 20px;
+
+        img {
+            max-width: 70%;
+        }
+    }
+
+    .grillaCatalogo {
+        display: grid;
+        grid-template-areas:
+            "titulo3 titulo3"
+            "producto1 producto2"
+            "producto3 producto4"
+            "producto5 producto6"
+            "producto7 producto8"
+            "producto9 0"
+        ;
+    }
+
+    .grillaComo {
+        display: grid;
+        grid-template-areas:
+            "titulo4 titulo4"
+            "listaCompra listaCompra"
+            "enviosM cuotasM"
+            "descuentoM descuentoM";
+        gap: 20px;
+
+        .listaCompra {
+            height: 700px;
+            color: white;
+        }
+    }
+    .grillaQuienes {
+        display: grid;
+        grid-template-areas:
+        "titulo2 titulo2"
+        "foto-grupo foto-grupo"
+        "textoquien textoquien"
+        "textoLocal textoLocal"
+        "local1 local2";
+    }
+    .grupoEmpre {max-width: 576px;}
+    .textoquien{margin-bottom: 50px;}
+}
+
+
+@media screen and(min-width:900px) {
+    .grillaMateando {
+        display: grid;
+        grid-template-areas:
+            "titulo titulo titulo"
+            "foto1 ahora12 foto2"
+            "memes memes memes"
+            "messi1 roman1 marado1";
+        gap: 20px;
+
+        img {
+            max-width: 60%;
+        }
+
+        margin: 50px 150px 50px 150px
+    }
+
+    .grillaCatalogo {
+        display: grid;
+        grid-template-areas:
+            "titulo3 titulo3 titulo3"
+            "producto1 producto2 producto3"
+            "producto4 producto5 producto6"
+            "producto7 producto8 producto9"
+            "footer footer footer";
+
+        img {
+            max-width: 60%;
+        }
+
+        margin: 50px 150px 50px 150px
+    }
+
+    .barraDer {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .titulo6 {
+        margin: 50px 100px 50px 100px
+    }
+
+    .formu1 {
+        margin: 50px 100px 50px 100px
+    }
+
+    .grillaComo {
+        display: grid;
+        grid-template-areas:
+            "titulo4 titulo4 titulo4"
+            "listaCompra listaCompra listaCompra"
+            "enviosM cuotasM descuentoM";
+        gap: 20px;
+        margin: 50px 150px 50px 150px;
+
+    }
+    .grillaQuienes {
+        display: grid;
+        grid-template-areas:
+            "titulo2 titulo2 titulo2"
+            "foto-grupo foto-grupo foto-grupo"
+            "textoquien textoquien textoquien"
+            "local1 textoLocal local2"
+            "footer footer footer";
+        gap: 20px;
+        .grupoEmpre {max-width: 600px;}
+        
+        margin: 50px 150px 50px 150px;
+    }
+    .local1 img, .local2 img{max-width: 400px;}
+}

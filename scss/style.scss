@@ -1,0 +1,17 @@
+@import "./utilities/breakpoints";
+@import "./utilities/mixins";
+@import "./utilities/variables";
+@import "./utilities/animaciones";
+@import "./layout/main";
+@import "./layout/maincatalogo";
+@import "./layout/maincomo";
+@import "./layout/mainquienes";
+@import "./layout/form";
+@import "./layout/footer";
+@import "./layout/header";
+@import "./layout/reset";
+
+body {
+    background: rgb(17, 45, 78);
+    background: radial-gradient(circle, rgba(17, 45, 78, 1) 0%, rgba(255, 255, 255, 1) 91%);
+}

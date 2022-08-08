@@ -1,0 +1,44 @@
+.grillaComo{margin-top: 100px;}
+.titulo4 {
+    grid-area: titulo4;
+    @extend .tituGen
+}
+
+.listaCompra {
+    grid-area: listaCompra;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+    color: white;
+    height: 1300px;
+    padding: 20px;
+    border: black 5px solid;
+    border-radius: 50px;
+    margin: 20px;
+}
+
+.tresTarjetas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    height: 200px;
+}
+
+.enviosM {
+    grid-area: enviosM;
+    @extend .tresTarjetas
+}
+
+.cuotasM {
+    grid-area: cuotasM;
+    @extend .tresTarjetas
+}
+
+.descuentoM {
+    grid-area: descuentoM;
+    @extend .tresTarjetas
+}
